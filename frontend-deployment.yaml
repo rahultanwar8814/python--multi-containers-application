@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-frontend-image:latest # Replace with your actual frontend image name
+        image: rahultanwar/frontend-py:latest # Replace with your actual frontend image name
         ports:
         - containerPort: 3000
 ---
